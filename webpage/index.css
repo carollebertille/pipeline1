@@ -1,0 +1,71 @@
+<style>
+        *{
+           box-sizing:border-box;
+        }
+        body{
+              margin:20px;
+        }
+        /*contact*/
+        .contact{
+                  float:left;
+                  display:inline;
+         }
+        /*style header*/
+        .header{
+                
+                padding:10px;
+                text-align:center;
+        }
+        /*topnavigation*/
+        .navigation{
+                     overflow:hidden;
+                     background-color:skyblue; 
+                     text-align:center; 
+        }     
+         /*navigationlink*/
+         .navigation a{
+                        float:left;
+                        display:block;
+                        color:red;
+                        text-align:center;
+                        padding:16px 18px;
+                        text-decoration:none;
+         }
+         /*hovernavigation*/
+         .navigation a:hover{
+                               background-color:red;
+                               color:black;
+         }
+         /*columns floats next to each other*/
+         .columns{
+                   float:left;
+                   width:30%;
+                   padding:15px;
+          }
+          /*clear floats after the columns*/
+          .rowing:after{
+                         content:"";
+                         display:table;
+                         clear:both;
+                         background-color:#bbb;
+          }
+          /*right and left columns*/
+          .columns.side{
+                         width:20%;
+           }
+           /*middlecolumns*/
+           .columns.middle{
+                             width:60%;
+           }
+           @media screen and (max-width:600px){
+                                                .column{
+                                                         width:100%
+                                                         }
+          }
+          /*style footer*/
+          .footer{
+                   background-color:skyblue;
+                   padding:12;
+                   text-align:center;     
+          }                       
+     </style>
